@@ -1,0 +1,98 @@
+aList = {"John", 33, "Toronto", True}
+print(aList)
+
+
+import datetime as dt
+tanggal = dt.date.today()
+Mahasiswa = ['John', '2023071069', 'Informatika', 'DAA', tanggal, 'Universitas Pembangunan Jaya']
+print(Mahasiswa)
+
+
+bin_colors=['Red','Green','Blue','Yellow']
+bin_colors[0:2]
+
+
+print(bin_colors[1:2])
+
+
+print(bin_colors[2:2])
+
+
+bin_colors = ['Red','Green','Blue','Yellow']
+for aColor in bin_colors:
+  print(aColor + "Square")
+
+
+mahasiswa = ['John','0829342','Informatika','DAA', str(tanggal), 'Universitas Pembangunan Jaya']
+for aMahasiswa in mahasiswa:
+  print(aMahasiswa, "UPJ")
+
+
+AngkaSemua = (
+    100,
+    (200, 400, 600),
+    300,
+    (400, 800)
+)
+
+print(AngkaSemua)
+
+
+import pandas as pd
+
+data = {
+    'key': ['Adam Herlambang', '2023071007', 'Informatika', 'Universitas Pembagunan Jaya'],
+    'Value': ['(Adam Herlambang)', '(2023071007)', 'Informatika', 'Universitas Pembangunan Jaya']
+}
+
+df = pd.DataFrame(data)
+print(df)
+
+
+# Create a dictionary to store the data
+data = {
+  'Nama': '(Adam Herlambang)',
+  'NIM': '(2023071007)',
+  'Prodi': 'Informatika',
+  'Universitas': 'Universitas Pembangunan Jaya'
+}
+
+# Print the dictionary
+print(data)
+
+
+import pandas as pd
+
+# Data from the table
+data = {
+    'No': [1, 2, 3],
+    'Prodi': ['Informatika', 'Sistem Informasi', 'Akutansi'] * 1,
+    'Mahasiswa': ['(70)', '(50)', '(60)'],
+    'Laki-laki': [50, 30, 20],
+    'Perempuan': [20, 20, 40]
+}
+
+# Create a Pandas DataFrame
+df = pd.DataFrame(data)
+
+# Print the DataFrame
+print(df)
+
+
+import numpy as np
+
+# Membuat matriks awal
+matriks_awal = np.array([[100, 200, 300],
+                        [700, 600, 500],
+                        [900, 1000, 800]])
+
+# Melakukan transpose matriks
+matriks_transpose = np.transpose(matriks_awal)
+
+# Menampilkan hasil
+print("Matriks Awal:")
+print(matriks_awal)
+print("\nMatriks Transpose:")
+print(matriks_transpose)
+
+
